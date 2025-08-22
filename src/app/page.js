@@ -8,11 +8,11 @@ export default function HomePage() {
       <section className="relative text-center py-32 text-white">
         {/* Background Image */}
         <Image
-          src="/bannar.avif"
+          src="/bannar.jpg"
           alt="Hero Banner"
           fill
           priority
-          className="object-cover object-center -z-10"
+          className="object-cover h-full object-center -z-10"
         />
 
         {/* Overlay */}
@@ -20,11 +20,11 @@ export default function HomePage() {
 
         {/* Content */}
         <div className="relative z-10">
-          <h1 className="text-5xl font-extrabold mb-4">
+          <h1 className="text-5xl text-blue-800 font-extrabold mb-4">
             Welcome to My Website 🚀
           </h1>
           <p className="text-lg mb-6 max-w-2xl mx-auto">
-            Build modern web applications with Next.js 15 and Tailwind CSS.
+            Build modern web applications with Next.js 15 and Tailwind CSS use simple section.
           </p>
           <div className="flex gap-4 justify-center">
             <button className="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold shadow hover:bg-gray-100 transition">

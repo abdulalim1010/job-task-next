@@ -1,0 +1,86 @@
+[
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f17" },
+    "name": "Smart Watch",
+    "description": "Smartwatch: Tracks fitness, monitors heart rate, displays notifications",
+    "price": 590,
+    "image": "https://i.ibb.co/WZ8p3pk/smart-watch.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f18" },
+    "name": "Wireless Earbuds",
+    "description": "Bluetooth earbuds with noise cancellation and long battery life",
+    "price": 120,
+    "image": "https://i.ibb.co.com/0jkT6hhX/phone.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f19" },
+    "name": "Fitness Tracker",
+    "description": "Waterproof fitness tracker with heart rate and sleep monitoring",
+    "price": 99,
+    "image": "https://i.ibb.co.com/xqXY0nS9/mous.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f1a" },
+    "name": "Smartphone",
+    "description": "Latest model smartphone with high-resolution display and dual camera",
+    "price": 799,
+    "image": "https://i.ibb.co.com/JWRTjBbq/laptopse.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f1b" },
+    "name": "Laptop",
+    "description": "Powerful laptop with 16GB RAM, 512GB SSD, and full HD display",
+    "price": 1200,
+    "image": "https://i.ibb.co/4fXGxwC/laptop.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f1c" },
+    "name": "Tablet",
+    "description": "High-performance tablet with stylus support and retina display",
+    "price": 450,
+    "image": "https://i.ibb.co/g9K6vT2/tablet.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f1d" },
+    "name": "Smart Speaker",
+    "description": "Voice-controlled smart speaker with premium sound quality",
+    "price": 150,
+    "image": "https://i.ibb.co/2y0xPBg/smart-speaker.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f1e" },
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with immersive graphics and fast load times",
+    "price": 499,
+    "image": "https://i.ibb.co.com/xqXY0nS9/mous.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f1f" },
+    "name": "Digital Camera",
+    "description": "DSLR camera with 24MP sensor, 4K video, and optical zoom lens",
+    "price": 650,
+    "image": "https://i.ibb.co.com/0jkT6hhX/phone.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f20" },
+    "name": "VR Headset",
+    "description": "Virtual reality headset for immersive gaming and experiences",
+    "price": 399,
+    "image": "https://i.ibb.co/WZ8p3pk/smart-watch.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f21" },
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI and long battery life",
+    "price": 35,
+    "image": "https://i.ibb.co.com/0jkT6hhX/phone.jpg"
+  },
+  {
+    "_id": { "$oid": "68a80d6974cc0e34c35d0f22" },
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with tactile switches",
+    "price": 120,
+    "image": "https://i.ibb.co/WZ8p3pk/smart-watch.jpg"
+  }
+]

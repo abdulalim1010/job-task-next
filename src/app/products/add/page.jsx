@@ -1,6 +1,8 @@
 "use client";
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function AddProductPage() {
   const [name, setName] = useState("");
@@ -20,20 +22,33 @@ export default function AddProductPage() {
     });
 
     if (res.ok) {
-      alert("Product added!");
+      toast.success("Product added successfully!");
       router.push("/products");
     } else {
-      alert("Failed to add product");
+      toast.error("Failed to add product");
     }
   };
 
+  const preview = image || "https://via.placeholder.com/400x300.png?text=Preview";
+
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
-      <div className="w-full max-w-lg bg-white shadow-2xl rounded-xl p-8 sm:p-10">
+      <Toaster position="top-right" />
+      <div className="w-full max-w-lg bg-white shadow-2xl rounded-xl p-8 sm:p-10 flex flex-col gap-6">
         <h1 className="text-4xl font-extrabold text-gray-800 mb-6 text-center">
           Add New Product
         </h1>
-        <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+
+        {/* Image Preview */}
+        <div className="flex justify-center">
+          <img
+            src={preview}
+            alt="Product Preview"
+            className="w-full max-w-sm h-64 object-cover rounded-xl shadow-md"
+          />
+        </div>
+
+        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
             type="text"
             placeholder="Product Name"
