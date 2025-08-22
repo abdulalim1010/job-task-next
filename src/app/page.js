@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProductsPage from "./products/page";
 
 export default function HomePage() {
   return (
@@ -37,12 +38,9 @@ export default function HomePage() {
       </section>
 
       {/* নিচে আরেকটা সেকশন */}
-      <section className="py-16 px-6 text-center">
-        <h2 className="text-3xl font-bold mb-4">Our Features</h2>
-        <p className="max-w-xl mx-auto">
-          Fast, Scalable, and Easy to Use — powered by Next.js & Tailwind CSS.
-        </p>
-      </section>
+      <section>
+        <ProductsPage/>
+     </section>
     </div>
   );
 }

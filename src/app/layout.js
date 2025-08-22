@@ -18,7 +18,8 @@ export default function RootLayout({ children }) {
           <div className="flex gap-6">
             <Link href="/" className="hover:text-gray-200">Home</Link>
             <Link href="/products" className="hover:text-gray-200">Products</Link>
-            <Link href="/add-products" className="hover:text-gray-200">Add Products</Link>
+            <Link href="/products/add" className="hover:text-gray-200">Add Products</Link>
+          
           </div>
 
           {/* Right side - Login button */}
